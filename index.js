@@ -58,7 +58,7 @@ class App extends Component {
 
   }
   handleResponse = (arg) => {
-    consle.l
+    console.log('result', arg)
   }
   createCountObj = () => {
     let count = config.count
