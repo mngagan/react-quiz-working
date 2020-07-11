@@ -31,6 +31,7 @@ class App extends Component {
   }
 
   componentDidMount = () => {
+    
     var that = this
     setInterval(function () {
       if (that.seconds === 59) {
