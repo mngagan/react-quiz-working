@@ -1,0 +1,17 @@
+[
+    {
+        "question" : "What is your name ?",
+        "options" : ["gagan", "neel", "hp", "dell"],
+        "answer" : 3
+    },
+    {
+        "question" : "What is your name  2 ?",
+        "options" : ["gagan", "neel2", "hp2", "dell2"],
+        "answer" : 3
+    },
+    {
+        "question" : "What is your name ? 3",
+        "options" : ["gagan", "neel3", "hp3", "dell3"],
+        "answer" : 3
+    }
+]
