@@ -31,8 +31,11 @@ class App extends Component {
   }
 
   componentDidMount = () => {
-    
+    console.log('in did mount')
     var that = this
+     $.ajax({url: "https://api.github.com/repos/mngagan/react-quiz-working/git/trees/master?recursive=1", success: function(result){
+    that.handleResponse({result})
+  }});
     setInterval(function () {
       if (that.seconds === 59) {
         that.seconds = 0
@@ -53,6 +56,9 @@ class App extends Component {
       $('#mins').html(that.minutes)
     }, 60000);
 
+  }
+  handleResponse = (arg) => {
+    consle.l
   }
   createCountObj = () => {
     let count = config.count
